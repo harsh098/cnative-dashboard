@@ -1,4 +1,4 @@
-FROM python:3.10.12-slim-bookworm as base-img
+FROM python:3.10.12-slim as base-img
 
 RUN mkdir app
 WORKDIR /app
